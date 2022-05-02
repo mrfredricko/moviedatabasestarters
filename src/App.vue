@@ -2,19 +2,19 @@
   <div id="app">
     <NavBar/>
     <img alt="Vue logo" src="./assets/logo.png">
-    <MoviesDb></MoviesDb>
+    <router-view/>
   </div>
 </template>
 
 <script>
 import NavBar from './components/NavBar'
-import MoviesDb from './components/MoviesDb'
+
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    MoviesDb
+
   }
 }
 </script>
